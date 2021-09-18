@@ -14,7 +14,7 @@
 	<name>conference-demo</name>
 	<description>Conference Demo Project</description>
 	<properties>
-		<java.version>15</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -40,13 +40,13 @@
 		</dependency>
 	</dependencies>
 
-<!--	<build>-->
-<!--		<plugins>-->
-<!--			<plugin>-->
-<!--				<groupId>org.springframework.boot</groupId>-->
-<!--				<artifactId>spring-boot-maven-plugin</artifactId>-->
-<!--			</plugin>-->
-<!--		</plugins>-->
-<!--	</build>-->
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
 
 </project>
